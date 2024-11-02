@@ -1,6 +1,4 @@
 
-
-```markdown
 # Haseeb Raza's Portfolio
 
 Welcome to my personal portfolio website! This is a showcase of my journey as a Computer Science student with a strong interest in Artificial Intelligence (AI), Machine Learning (ML), and web development. Here, you can explore my skills, projects, professional experiences, and completed courses. I'm always learning and improving, so if you have any suggestions to make this website better, please feel free to reach out!
