@@ -51,8 +51,8 @@ To set up this portfolio locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
-   cd portfolio-website
+   git clone https://github.com/haseebraza715/portfolio.git
+   cd portfolio
    ```
 
 2. **Open the `index.html` file** in a browser to view the website locally.
@@ -63,7 +63,7 @@ To set up this portfolio locally, follow these steps:
 2. Go to **Settings** > **Pages** in your repository.
 3. Under **Source**, select `Deploy from a branch`.
 4. Choose the `main` branch (or `master` branch, depending on your setup), and save.
-5. Your website will be available at `https://yourusername.github.io/portfolio-website`.
+5. Your website will be available at `https://haseebraza715.github.io/portfolio`.
 
 ## Suggestions and Feedback
 
@@ -71,11 +71,11 @@ I'm always looking for ways to improve my website. If you have any ideas or feed
 
 ## License
 
-This project is open-source and available under the MIT License. Feel free to use any code, but please give credit if you are inspired by this project!
+This project is open-source and available under the MIT License. Feel free to use any code, but please give credit if this project inspires you!
 
 ---
 
 Thank you for visiting my portfolio! I hope you find it informative and engaging. Let's connect and create something amazing together!
 ```
 
-Replace `https://github.com/yourusername/portfolio-website.git` and `https://yourusername.github.io/portfolio-website` with the actual links to your repository and live GitHub Pages site. This README provides a structured overview of the portfolio project, with clear sections on how to set it up and contact information for feedback.
+
