@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Haseeb Raza, a Computer Science student specializing in AI, machine learning, and web development."
+    />
     <title>Haseeb Raza's Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
     <link
@@ -18,7 +22,7 @@
     <header>
       <div class="intro-left">
         <div class="intro-text">
-          <h1>Haseeb Raza</h1>
+          <h1>HR</h1>
           <!-- <p>Computer Science Student | AI & ML Enthusiast</p> -->
         </div>
       </div>
@@ -31,13 +35,13 @@
           <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
         </div>
-        <div class="social-icons">
+        <!-- <div class="social-icons">
           <a href="https://linkedin.com/in/yourprofile" target="_blank"
             >LinkedIn</a
           >
           <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
           <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
-        </div>
+        </div> -->
       </nav>
     </header>
 
@@ -49,13 +53,13 @@
           in Budapest, Hungary. With a strong focus on AI and machine learning,
           I aim to bridge the gap between technology and impactful solutions. My
           journey in tech has been both academic and hands-on, from studying at
-          Eötvös Loránd University to tackle real-world projects in web
+          Eötvös Loránd University to tackling real-world projects in web
           development and digital innovation.
         </p>
         <p>
           Skilled in a wide range of programming languages and technologies, I
           strive to contribute to projects that make a difference. Whether it's
-          through software engineering,web development or developing AI-driven
+          through software engineering, data analysis, or developing AI-driven
           applications, my commitment to continuous learning and improvement
           keeps me motivated and forward-focused.
         </p>
@@ -327,9 +331,10 @@
       </div>
     </section>
 
+    <
     <section id="contact">
       <div class="contact-container">
-        <!-- Left Side: Contact Info with Improved Styling -->
+        <!-- Left Side: Contact Info -->
         <div class="contact-info">
           <div class="info-content">
             <h2>Let's Connect</h2>
@@ -338,8 +343,8 @@
               want to say hi, feel free to reach out.
             </p>
             <div class="contact-details">
-              <a href="mailto:your-email@example.com" class="contact-link">
-                <i class="fas fa-envelope"></i> haseeb.javed715@gmail.com
+              <a href="mailto:haseeb.javed715@example.com" class="contact-link">
+                <i class="fas fa-envelope"></i> haseeb.javed715@example.com
               </a>
               <a
                 href="https://www.linkedin.com/in/haseeb-raza-00a845231/"
@@ -359,9 +364,9 @@
           </div>
         </div>
 
-        <!-- Right Side: Contact Form with Enhanced Styling -->
+        <!-- Right Side: Contact Form -->
         <div class="contact-form">
-          <form action="#" method="post">
+          <form action="https://formspree.io/f/manybwrp" method="post">
             <div class="form-group">
               <i class="fas fa-user"></i>
               <input type="text" name="name" placeholder="Your Name" required />
@@ -376,7 +381,7 @@
               />
             </div>
             <div class="form-group">
-              <i class="fas fa-comment"></i>
+              <i class="fas fa-comment" id="mes-icon"></i>
               <textarea
                 name="message"
                 placeholder="Your Message"
@@ -389,68 +394,70 @@
         </div>
       </div>
     </section>
-  </body>
-  <footer id="footer">
-    <div class="footer-container">
-      <!-- About Section -->
-      <div class="footer-about">
-        <h3>Haseeb Raza</h3>
-        <p>
-          Passionate Computer Science student exploring AI, ML, and web
-          development. Let's build something amazing together!
-        </p>
-      </div>
 
-      <!-- Quick Links Section -->
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+    <footer id="footer">
+      <div class="footer-container">
+        <!-- About Section -->
+        <div class="footer-about">
+          <h3>Haseeb Raza</h3>
+          <p>
+            Passionate Computer Science student exploring AI, ML, and web
+            development. Let's build something amazing together!
+          </p>
+        </div>
 
-      <!-- Social Media Section -->
-      <div class="footer-social">
-        <h4>Connect with Me</h4>
-        <div class="social-icons">
-          <a
-            href="https://www.linkedin.com/in/haseeb-raza-00a845231/"
-            target="_blank"
-            ><i class="fab fa-linkedin"></i> LinkedIn</a
-          >
-          <a href="https://github.com/haseebraza715" target="_blank"
-            ><i class="fab fa-github"></i> GitHub</a
-          >
-          <!-- <a href="https://twitter.com/your-twitter" target="_blank"
+        <!-- Quick Links Section -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="footer-social">
+          <h4>Connect with Me</h4>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/haseeb-raza-00a845231/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i> LinkedIn</a
+            >
+            <a href="https://github.com/haseebraza715" target="_blank"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <!-- <a href="https://twitter.com/your-twitter" target="_blank"
             ><i class="fab fa-twitter"></i> Twitter</a
           > -->
+          </div>
+        </div>
+
+        <!-- Newsletter Signup Section -->
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Subscribe for updates on new projects and insights.</p>
+          <form action="#" method="post">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
         </div>
       </div>
 
-      <!-- Newsletter Signup Section -->
-      <div class="footer-newsletter">
-        <h4>Newsletter</h4>
-        <p>Subscribe for updates on new projects and insights.</p>
-        <form action="#" method="post">
-          <input
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-            required
-          />
-          <button type="submit">Subscribe</button>
-        </form>
+      <!-- Copyright and Back to Top -->
+      <div class="footer-bottom">
+        <p>&copy; 2024 Haseeb Raza. All rights reserved.</p>
+        <a href="#top" class="back-to-top">Back to Top</a>
       </div>
-    </div>
-
-    <!-- Copyright and Back to Top -->
-    <div class="footer-bottom">
-      <p>&copy; 2024 Haseeb Raza. All rights reserved.</p>
-      <a href="#top" class="back-to-top">Back to Top</a>
-    </div>
-  </footer>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
