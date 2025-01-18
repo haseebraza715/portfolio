@@ -16,7 +16,7 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 ## Live Demo
 Check out the live version of my portfolio:  
-👉 [https://github.com/haseebraza715/portfolio](https://haseebraza715.github.io/portfolio)
+[https://github.com/haseebraza715/portfolio](https://haseebraza715.github.io/portfolio)
 
 ## Installation
 To run this project locally, follow these steps:
