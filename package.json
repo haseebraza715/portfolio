@@ -2,11 +2,7 @@
   "name": "resume-app",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "homepage": "https:haseebraza715./portfolio",
-=======
-  "homepage": "https://github.com/haseebraza715/portfolio",
->>>>>>> 123ea5801f263ca3b0e8adabf3539b626ecea44d
+  "homepage": "https://haseebraza715.github.io/portfolio",
   "dependencies": {
     "cra-template": "1.2.0",
     "framer-motion": "^11.18.0",
