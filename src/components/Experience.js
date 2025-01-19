@@ -19,7 +19,7 @@ const Experience = () => {
           className="flex justify-center items-center text-4xl sm:text-5xl font-extrabold md:text-6xl text-[#c9d1d9]"
         >
           Experience
-          <span className="text-[#58a6ff] ml-2">.</span>
+          <span className="text-[#f0e68c] ml-2">.</span>
         </h1>
       </motion.div>
 
