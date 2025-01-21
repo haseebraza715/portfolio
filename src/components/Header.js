@@ -128,7 +128,7 @@ const SocialsBlock = () => (
       className="col-span-6 bg-[#0d1117] md:col-span-3"
     >
       <a
-        href="https://twitter.com/haseebraza"
+        href="https://x.com/HaseebRaza715"
         target="_blank"
         rel="noopener noreferrer"
         className="grid h-full place-content-center text-2xl text-[#c9d1d9]"
@@ -168,14 +168,12 @@ const DownloadButton = () => {
         throw new Error("Failed to fetch resume");
       }
 
-      // Convert the response to a Blob
       const blob = await response.blob();
 
-      // Create a download link
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.setAttribute("download", "Haseeb_Raza_Resume.pdf"); // Set the file name
+      link.setAttribute("download", "Haseeb_Raza_Resume.pdf"); 
       document.body.appendChild(link);
       link.click();
 
